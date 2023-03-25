@@ -1,0 +1,267 @@
+
+Name                                     DisplayName                                                                        State   StartType DelayedAutoSta
+                                                                                                                                                          rt
+----                                     -----------                                                                        -----   --------- --------------
+AxInstSV                                 ActiveX Installer (AxInstSV)                                                       Stopped Manual             False
+AarSvc_5a94f                             Agent Activation Runtime_5a94f                                                     Stopped Manual             False
+AJRouter                                 AllJoyn Router Service                                                             Stopped Manual             False
+AppReadiness                             App Readiness                                                                      Stopped Manual             False
+AppIDSvc                                 Application Identity                                                               Running Manual             False
+Appinfo                                  Application Information                                                            Running Manual             False
+ALG                                      Application Layer Gateway Service                                                  Stopped Manual             False
+AppMgmt                                  Application Management                                                             Stopped Manual             False
+AppXSvc                                  AppX Deployment Service (AppXSVC)                                                  Running Manual             False
+AssignedAccessManagerSvc                 AssignedAccessManager Service                                                      Stopped Manual             False
+tzautoupdate                             Auto Time Zone Updater                                                             Stopped Disabled           False
+BthAvctpSvc                              AVCTP service                                                                      Running Manual             False
+BITS                                     Background Intelligent Transfer Service                                            Stopped Manual              True
+BrokerInfrastructure                     Background Tasks Infrastructure Service                                            Running Auto               False
+BFE                                      Base Filtering Engine                                                              Running Auto               False
+BDESVC                                   BitLocker Drive Encryption Service                                                 Stopped Manual             False
+wbengine                                 Block Level Backup Engine Service                                                  Stopped Manual             False
+BTAGService                              Bluetooth Audio Gateway Service                                                    Stopped Manual             False
+bthserv                                  Bluetooth Support Service                                                          Stopped Manual             False
+BluetoothUserService_5a94f               Bluetooth User Support Service_5a94f                                               Stopped Manual             False
+PeerDistSvc                              BranchCache                                                                        Stopped Manual             False
+camsvc                                   Capability Access Manager Service                                                  Running Manual             False
+CaptureService_5a94f                     CaptureService_5a94f                                                               Stopped Manual             False
+autotimesvc                              Cellular Time                                                                      Stopped Manual             False
+CertPropSvc                              Certificate Propagation                                                            Stopped Manual             False
+ClipSVC                                  Client License Service (ClipSVC)                                                   Stopped Manual             False
+cbdhsvc_5a94f                            Clipboard User Service_5a94f                                                       Running Auto                True
+KeyIso                                   CNG Key Isolation                                                                  Running Manual             False
+EventSystem                              COM+ Event System                                                                  Running Auto               False
+COMSysApp                                COM+ System Application                                                            Running Manual             False
+CDPSvc                                   Connected Devices Platform Service                                                 Running Auto                True
+CDPUserSvc_5a94f                         Connected Devices Platform User Service_5a94f                                      Running Auto               False
+DiagTrack                                Connected User Experiences and Telemetry                                           Running Auto               False
+ConsentUxUserSvc_5a94f                   ConsentUX User Service_5a94f                                                       Stopped Manual             False
+PimIndexMaintenanceSvc_5a94f             Contact Data_5a94f                                                                 Running Manual             False
+CoreMessagingRegistrar                   CoreMessaging                                                                      Running Auto               False
+VaultSvc                                 Credential Manager                                                                 Running Manual             False
+CredentialEnrollmentManagerUserSvc_5a94f CredentialEnrollmentManagerUserSvc_5a94f                                           Stopped Manual             False
+CryptSvc                                 Cryptographic Services                                                             Running Auto               False
+DsSvc                                    Data Sharing Service                                                               Stopped Manual             False
+DusmSvc                                  Data Usage                                                                         Running Auto               False
+DcomLaunch                               DCOM Server Process Launcher                                                       Running Auto               False
+dcsvc                                    dcsvc                                                                              Stopped Manual              True
+DoSvc                                    Delivery Optimization                                                              Running Auto                True
+DeviceAssociationService                 Device Association Service                                                         Stopped Manual             False
+DeviceInstall                            Device Install Service                                                             Stopped Manual             False
+DmEnrollmentSvc                          Device Management Enrollment Service                                               Stopped Manual             False
+dmwappushservice                         Device Management Wireless Application Protocol (WAP) Push message Routing Service Stopped Manual              True
+DsmSvc                                   Device Setup Manager                                                               Stopped Manual             False
+DeviceAssociationBrokerSvc_5a94f         DeviceAssociationBroker_5a94f                                                      Stopped Manual             False
+DevicePickerUserSvc_5a94f                DevicePicker_5a94f                                                                 Stopped Manual             False
+DevicesFlowUserSvc_5a94f                 DevicesFlow_5a94f                                                                  Stopped Manual             False
+DevQueryBroker                           DevQuery Background Discovery Broker                                               Stopped Manual             False
+Dhcp                                     DHCP Client                                                                        Running Auto               False
+diagsvc                                  Diagnostic Execution Service                                                       Stopped Manual             False
+DPS                                      Diagnostic Policy Service                                                          Running Auto               False
+WdiServiceHost                           Diagnostic Service Host                                                            Stopped Manual             False
+WdiSystemHost                            Diagnostic System Host                                                             Running Manual             False
+DialogBlockingService                    DialogBlockingService                                                              Stopped Disabled           False
+DisplayEnhancementService                Display Enhancement Service                                                        Running Manual             False
+DispBrokerDesktopSvc                     Display Policy Service                                                             Running Auto               False
+TrkWks                                   Distributed Link Tracking Client                                                   Running Auto               False
+MSDTC                                    Distributed Transaction Coordinator                                                Running Manual              True
+Dnscache                                 DNS Client                                                                         Running Auto               False
+MapsBroker                               Downloaded Maps Manager                                                            Stopped Auto                True
+embeddedmode                             Embedded Mode                                                                      Stopped Manual             False
+EFS                                      Encrypting File System (EFS)                                                       Stopped Manual             False
+EntAppSvc                                Enterprise App Management Service                                                  Stopped Manual             False
+EapHost                                  Extensible Authentication Protocol                                                 Stopped Manual             False
+fhsvc                                    File History Service                                                               Stopped Manual             False
+fdPHost                                  Function Discovery Provider Host                                                   Stopped Manual             False
+FDResPub                                 Function Discovery Resource Publication                                            Stopped Manual             False
+BcastDVRUserService_5a94f                GameDVR and Broadcast User Service_5a94f                                           Stopped Manual             False
+lfsvc                                    Geolocation Service                                                                Running Manual             False
+GraphicsPerfSvc                          GraphicsPerfSvc                                                                    Stopped Manual             False
+gpsvc                                    Group Policy Client                                                                Stopped Auto               False
+hidserv                                  Human Interface Device Service                                                     Stopped Manual             False
+HvHost                                   HV Host Service                                                                    Stopped Manual             False
+vmickvpexchange                          Hyper-V Data Exchange Service                                                      Stopped Manual             False
+vmicguestinterface                       Hyper-V Guest Service Interface                                                    Stopped Manual             False
+vmicshutdown                             Hyper-V Guest Shutdown Service                                                     Stopped Manual             False
+vmicheartbeat                            Hyper-V Heartbeat Service                                                          Stopped Manual             False
+vmicvmsession                            Hyper-V PowerShell Direct Service                                                  Stopped Manual             False
+vmicrdv                                  Hyper-V Remote Desktop Virtualization Service                                      Stopped Manual             False
+vmictimesync                             Hyper-V Time Synchronization Service                                               Stopped Manual             False
+vmicvss                                  Hyper-V Volume Shadow Copy Requestor                                               Stopped Manual             False
+IKEEXT                                   IKE and AuthIP IPsec Keying Modules                                                Stopped Manual             False
+SharedAccess                             Internet Connection Sharing (ICS)                                                  Stopped Manual             False
+InventorySvc                             Inventory and Compatibility Appraisal service                                      Stopped Manual             False
+iphlpsvc                                 IP Helper                                                                          Running Auto               False
+IpxlatCfgSvc                             IP Translation Configuration Service                                               Stopped Manual             False
+PolicyAgent                              IPsec Policy Agent                                                                 Stopped Manual             False
+KtmRm                                    KtmRm for Distributed Transaction Coordinator                                      Stopped Manual             False
+LxpSvc                                   Language Experience Service                                                        Stopped Manual             False
+lltdsvc                                  Link-Layer Topology Discovery Mapper                                               Stopped Manual             False
+wlpasvc                                  Local Profile Assistant Service                                                    Stopped Manual             False
+LSM                                      Local Session Manager                                                              Running Auto               False
+McpManagementService                     McpManagementService                                                               Stopped Manual             False
+MessagingService_5a94f                   MessagingService_5a94f                                                             Stopped Manual             False
+diagnosticshub.standardcollector.service Microsoft (R) Diagnostics Hub Standard Collector Service                           Stopped Manual             False
+wlidsvc                                  Microsoft Account Sign-in Assistant                                                Stopped Manual             False
+AppVClient                               Microsoft App-V Client                                                             Stopped Disabled           False
+cloudidsvc                               Microsoft Cloud Identity Service                                                   Stopped Manual             False
+WdNisSvc                                 Microsoft Defender Antivirus Network Inspection Service                            Running Manual             False
+WinDefend                                Microsoft Defender Antivirus Service                                               Running Auto               False
+MicrosoftEdgeElevationService            Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)                   Stopped Manual             False
+edgeupdate                               Microsoft Edge Update Service (edgeupdate)                                         Stopped Auto                True
+edgeupdatem                              Microsoft Edge Update Service (edgeupdatem)                                        Stopped Manual              True
+MSiSCSI                                  Microsoft iSCSI Initiator Service                                                  Stopped Manual             False
+MsKeyboardFilter                         Microsoft Keyboard Filter                                                          Stopped Disabled           False
+NgcSvc                                   Microsoft Passport                                                                 Stopped Manual             False
+NgcCtnrSvc                               Microsoft Passport Container                                                       Stopped Manual             False
+swprv                                    Microsoft Software Shadow Copy Provider                                            Stopped Manual             False
+smphost                                  Microsoft Storage Spaces SMP                                                       Stopped Manual             False
+InstallService                           Microsoft Store Install Service                                                    Stopped Manual             False
+uhssvc                                   Microsoft Update Health Service                                                    Stopped Disabled           False
+SmsRouter                                Microsoft Windows SMS Router Service.                                              Stopped Manual             False
+NaturalAuthentication                    Natural Authentication                                                             Stopped Manual             False
+NetTcpPortSharing                        Net.Tcp Port Sharing Service                                                       Stopped Disabled           False
+Netlogon                                 Netlogon                                                                           Stopped Manual             False
+NcdAutoSetup                             Network Connected Devices Auto-Setup                                               Stopped Manual             False
+NcbService                               Network Connection Broker                                                          Running Manual             False
+Netman                                   Network Connections                                                                Stopped Manual             False
+NcaSvc                                   Network Connectivity Assistant                                                     Stopped Manual             False
+netprofm                                 Network List Service                                                               Running Manual             False
+NlaSvc                                   Network Location Awareness                                                         Stopped Manual             False
+NetSetupSvc                              Network Setup Service                                                              Stopped Manual             False
+nsi                                      Network Store Interface Service                                                    Running Auto               False
+NPSMSvc_5a94f                            NPSMSvc_5a94f                                                                      Running Manual             False
+CscService                               Offline Files                                                                      Stopped Manual             False
+ssh-agent                                OpenSSH Authentication Agent                                                       Stopped Disabled           False
+defragsvc                                Optimize drives                                                                    Stopped Manual             False
+P9RdrService_5a94f                       P9RdrService_5a94f                                                                 Stopped Manual             False
+WpcMonSvc                                Parental Controls                                                                  Stopped Manual             False
+SEMgrSvc                                 Payments and NFC/SE Manager                                                        Stopped Manual             False
+PNRPsvc                                  Peer Name Resolution Protocol                                                      Stopped Manual             False
+p2psvc                                   Peer Networking Grouping                                                           Stopped Manual             False
+p2pimsvc                                 Peer Networking Identity Manager                                                   Stopped Manual             False
+PenService_5a94f                         PenService_5a94f                                                                   Stopped Manual             False
+PerfHost                                 Performance Counter DLL Host                                                       Stopped Manual             False
+pla                                      Performance Logs & Alerts                                                          Stopped Manual             False
+PhoneSvc                                 Phone Service                                                                      Stopped Manual             False
+PlugPlay                                 Plug and Play                                                                      Running Manual             False
+PNRPAutoReg                              PNRP Machine Name Publication Service                                              Stopped Manual             False
+WPDBusEnum                               Portable Device Enumerator Service                                                 Stopped Manual             False
+Power                                    Power                                                                              Running Auto               False
+Spooler                                  Print Spooler                                                                      Running Auto               False
+PrintNotify                              Printer Extensions and Notifications                                               Stopped Manual             False
+PrintWorkflowUserSvc_5a94f               PrintWorkflow_5a94f                                                                Stopped Manual             False
+wercplsupport                            Problem Reports Control Panel Support                                              Stopped Manual             False
+PcaSvc                                   Program Compatibility Assistant Service                                            Running Auto                True
+QWAVE                                    Quality Windows Audio Video Experience                                             Stopped Manual             False
+RmSvc                                    Radio Management Service                                                           Running Manual             False
+TroubleshootingSvc                       Recommended Troubleshooting Service                                                Stopped Manual             False
+RasAuto                                  Remote Access Auto Connection Manager                                              Stopped Manual             False
+RasMan                                   Remote Access Connection Manager                                                   Stopped Manual             False
+SessionEnv                               Remote Desktop Configuration                                                       Stopped Manual             False
+TermService                              Remote Desktop Services                                                            Stopped Manual             False
+UmRdpService                             Remote Desktop Services UserMode Port Redirector                                   Stopped Manual             False
+RpcSs                                    Remote Procedure Call (RPC)                                                        Running Auto               False
+RpcLocator                               Remote Procedure Call (RPC) Locator                                                Stopped Manual             False
+RemoteRegistry                           Remote Registry                                                                    Stopped Disabled           False
+RetailDemo                               Retail Demo Service                                                                Stopped Manual             False
+RemoteAccess                             Routing and Remote Access                                                          Stopped Disabled           False
+RpcEptMapper                             RPC Endpoint Mapper                                                                Running Auto               False
+seclogon                                 Secondary Logon                                                                    Stopped Manual             False
+SstpSvc                                  Secure Socket Tunneling Protocol Service                                           Stopped Manual             False
+SamSs                                    Security Accounts Manager                                                          Running Auto               False
+wscsvc                                   Security Center                                                                    Running Auto                True
+SensorDataService                        Sensor Data Service                                                                Stopped Manual             False
+SensrSvc                                 Sensor Monitoring Service                                                          Stopped Manual             False
+SensorService                            Sensor Service                                                                     Stopped Manual             False
+LanmanServer                             Server                                                                             Running Auto               False
+shpamsvc                                 Shared PC Account Manager                                                          Stopped Disabled           False
+ShellHWDetection                         Shell Hardware Detection                                                           Running Auto               False
+SCardSvr                                 Smart Card                                                                         Stopped Manual             False
+ScDeviceEnum                             Smart Card Device Enumeration Service                                              Stopped Manual             False
+SCPolicySvc                              Smart Card Removal Policy                                                          Stopped Manual             False
+SNMPTrap                                 SNMP Trap                                                                          Stopped Manual             False
+sppsvc                                   Software Protection                                                                Stopped Auto                True
+SharedRealitySvc                         Spatial Data Service                                                               Stopped Manual             False
+svsvc                                    Spot Verifier                                                                      Stopped Manual             False
+SSDPSRV                                  SSDP Discovery                                                                     Running Manual             False
+StateRepository                          State Repository Service                                                           Running Auto               False
+WiaRpc                                   Still Image Acquisition Events                                                     Stopped Manual             False
+StorSvc                                  Storage Service                                                                    Running Auto                True
+TieringEngineService                     Storage Tiers Management                                                           Stopped Manual             False
+OneSyncSvc_5a94f                         Sync Host_5a94f                                                                    Running Auto                True
+SysMain                                  SysMain                                                                            Running Auto               False
+SENS                                     System Event Notification Service                                                  Running Auto               False
+SystemEventsBroker                       System Events Broker                                                               Running Auto               False
+SgrmBroker                               System Guard Runtime Monitor Broker                                                Running Auto                True
+Schedule                                 Task Scheduler                                                                     Running Auto               False
+lmhosts                                  TCP/IP NetBIOS Helper                                                              Running Manual             False
+TapiSrv                                  Telephony                                                                          Stopped Manual             False
+TextInputManagementService               Text Input Management Service                                                      Running Auto               False
+Themes                                   Themes                                                                             Running Auto               False
+TimeBrokerSvc                            Time Broker                                                                        Running Manual             False
+UdkUserSvc_5a94f                         Udk User Service_5a94f                                                             Running Manual             False
+UsoSvc                                   Update Orchestrator Service                                                        Running Auto                True
+upnphost                                 UPnP Device Host                                                                   Stopped Manual             False
+UserDataSvc_5a94f                        User Data Access_5a94f                                                             Running Manual             False
+UnistoreSvc_5a94f                        User Data Storage_5a94f                                                            Running Manual             False
+UevAgentService                          User Experience Virtualization Service                                             Stopped Disabled           False
+UserManager                              User Manager                                                                       Running Auto               False
+ProfSvc                                  User Profile Service                                                               Running Auto               False
+vds                                      Virtual Disk                                                                       Stopped Manual             False
+VSS                                      Volume Shadow Copy                                                                 Stopped Manual             False
+VacSvc                                   Volumetric Audio Compositor Service                                                Stopped Manual             False
+WaaSMedicSvc                             WaaSMedicSvc                                                                       Stopped Manual             False
+WalletService                            WalletService                                                                      Stopped Manual             False
+WarpJITSvc                               Warp JIT Service                                                                   Stopped Manual             False
+TokenBroker                              Web Account Manager                                                                Running Manual             False
+webthreatdefsvc                          Web Threat Defense Service                                                         Running Manual             False
+webthreatdefusersvc_5a94f                Web Threat Defense User Service_5a94f                                              Running Auto               False
+WebClient                                WebClient                                                                          Stopped Manual             False
+WFDSConMgrSvc                            Wi-Fi Direct Services Connection Manager Service                                   Stopped Manual             False
+Audiosrv                                 Windows Audio                                                                      Running Auto               False
+AudioEndpointBuilder                     Windows Audio Endpoint Builder                                                     Running Auto               False
+SDRSVC                                   Windows Backup                                                                     Stopped Manual             False
+WbioSrvc                                 Windows Biometric Service                                                          Stopped Manual             False
+FrameServer                              Windows Camera Frame Server                                                        Stopped Manual             False
+FrameServerMonitor                       Windows Camera Frame Server Monitor                                                Stopped Manual             False
+wcncsvc                                  Windows Connect Now - Config Registrar                                             Stopped Manual             False
+Wcmsvc                                   Windows Connection Manager                                                         Running Auto               False
+Sense                                    Windows Defender Advanced Threat Protection Service                                Stopped Manual             False
+mpssvc                                   Windows Defender Firewall                                                          Running Auto               False
+WEPHOSTSVC                               Windows Encryption Provider Host Service                                           Stopped Manual             False
+WerSvc                                   Windows Error Reporting Service                                                    Stopped Manual             False
+Wecsvc                                   Windows Event Collector                                                            Stopped Manual             False
+EventLog                                 Windows Event Log                                                                  Running Auto               False
+FontCache                                Windows Font Cache Service                                                         Running Auto               False
+StiSvc                                   Windows Image Acquisition (WIA)                                                    Stopped Manual             False
+wisvc                                    Windows Insider Service                                                            Stopped Manual             False
+msiserver                                Windows Installer                                                                  Stopped Manual             False
+LicenseManager                           Windows License Manager Service                                                    Running Manual             False
+Winmgmt                                  Windows Management Instrumentation                                                 Running Auto               False
+WManSvc                                  Windows Management Service                                                         Stopped Manual             False
+WMPNetworkSvc                            Windows Media Player Network Sharing Service                                       Stopped Manual             False
+MixedRealityOpenXRSvc                    Windows Mixed Reality OpenXR Service                                               Stopped Manual             False
+icssvc                                   Windows Mobile Hotspot Service                                                     Stopped Manual             False
+TrustedInstaller                         Windows Modules Installer                                                          Stopped Manual             False
+spectrum                                 Windows Perception Service                                                         Stopped Manual             False
+perceptionsimulation                     Windows Perception Simulation Service                                              Stopped Manual             False
+WpnService                               Windows Push Notifications System Service                                          Running Auto               False
+WpnUserService_5a94f                     Windows Push Notifications User Service_5a94f                                      Running Auto               False
+PushToInstall                            Windows PushToInstall Service                                                      Stopped Manual             False
+WinRM                                    Windows Remote Management (WS-Management)                                          Stopped Manual              True
+WSearch                                  Windows Search                                                                     Running Auto                True
+SecurityHealthService                    Windows Security Service                                                           Running Manual             False
+W32Time                                  Windows Time                                                                       Stopped Manual             False
+wuauserv                                 Windows Update                                                                     Stopped Manual             False
+WinHttpAutoProxySvc                      WinHTTP Web Proxy Auto-Discovery Service                                           Running Manual             False
+dot3svc                                  Wired AutoConfig                                                                   Stopped Manual             False
+WlanSvc                                  WLAN AutoConfig                                                                    Stopped Manual             False
+wmiApSrv                                 WMI Performance Adapter                                                            Stopped Manual             False
+workfolderssvc                           Work Folders                                                                       Stopped Manual             False
+LanmanWorkstation                        Workstation                                                                        Running Auto               False
+WwanSvc                                  WWAN AutoConfig                                                                    Stopped Manual             False
+XboxGipSvc                               Xbox Accessory Management Service                                                  Stopped Manual             False
+XblAuthManager                           Xbox Live Auth Manager                                                             Stopped Manual             False
+XblGameSave                              Xbox Live Game Save                                                                Stopped Manual             False
+XboxNetApiSvc                            Xbox Live Networking Service                                                       Stopped Manual             False

@@ -1,0 +1,1580 @@
+[
+    {
+        "Name":  "AxInstSV",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "AarSvc_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "AJRouter",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "AppReadiness",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "AppIDSvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Appinfo",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "ALG",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "AppMgmt",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "AppXSvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "AssignedAccessManagerSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "tzautoupdate",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "BthAvctpSvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "BITS",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "BrokerInfrastructure",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "BFE",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "BDESVC",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "wbengine",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "BTAGService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "bthserv",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "BluetoothUserService_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PeerDistSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "camsvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "CaptureService_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "autotimesvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "CertPropSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "ClipSVC",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "cbdhsvc_5a94f",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "KeyIso",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "EventSystem",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "COMSysApp",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "CDPSvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "CDPUserSvc_5a94f",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DiagTrack",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "ConsentUxUserSvc_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PimIndexMaintenanceSvc_5a94f",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "CoreMessagingRegistrar",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "VaultSvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "CredentialEnrollmentManagerUserSvc_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "CryptSvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DsSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DusmSvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DcomLaunch",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "dcsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "DoSvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "DeviceAssociationService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DeviceInstall",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DmEnrollmentSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "dmwappushservice",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "DsmSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DeviceAssociationBrokerSvc_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DevicePickerUserSvc_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DevicesFlowUserSvc_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DevQueryBroker",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Dhcp",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "diagsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DPS",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WdiServiceHost",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WdiSystemHost",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DialogBlockingService",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DisplayEnhancementService",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "DispBrokerDesktopSvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "TrkWks",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "MSDTC",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "Dnscache",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "MapsBroker",
+        "State":  "Stopped",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "embeddedmode",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "EFS",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "EntAppSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "EapHost",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "fhsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "fdPHost",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "FDResPub",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "BcastDVRUserService_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "lfsvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "GraphicsPerfSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "gpsvc",
+        "State":  "Stopped",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "hidserv",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "HvHost",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "vmickvpexchange",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "vmicguestinterface",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "vmicshutdown",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "vmicheartbeat",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "vmicvmsession",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "vmicrdv",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "vmictimesync",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "vmicvss",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "IKEEXT",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SharedAccess",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "InventorySvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "iphlpsvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "IpxlatCfgSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PolicyAgent",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "KtmRm",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "LxpSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "lltdsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "wlpasvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "LSM",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "McpManagementService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "MessagingService_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "diagnosticshub.standardcollector.service",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "wlidsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "AppVClient",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "cloudidsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WdNisSvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WinDefend",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "MicrosoftEdgeElevationService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "edgeupdate",
+        "State":  "Stopped",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "edgeupdatem",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "MSiSCSI",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "MsKeyboardFilter",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "NgcSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "NgcCtnrSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "swprv",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "smphost",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "InstallService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "uhssvc",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SmsRouter",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "NaturalAuthentication",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "NetTcpPortSharing",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Netlogon",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "NcdAutoSetup",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "NcbService",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Netman",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "NcaSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "netprofm",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "NlaSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "NetSetupSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "nsi",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "NPSMSvc_5a94f",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "CscService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "ssh-agent",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "defragsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "P9RdrService_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WpcMonSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SEMgrSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PNRPsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "p2psvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "p2pimsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PenService_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PerfHost",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "pla",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PhoneSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PlugPlay",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PNRPAutoReg",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WPDBusEnum",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Power",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Spooler",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PrintNotify",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PrintWorkflowUserSvc_5a94f",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "wercplsupport",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PcaSvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "QWAVE",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "RmSvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "TroubleshootingSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "RasAuto",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "RasMan",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SessionEnv",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "TermService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "UmRdpService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "RpcSs",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "RpcLocator",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "RemoteRegistry",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "RetailDemo",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "RemoteAccess",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "RpcEptMapper",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "seclogon",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SstpSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SamSs",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "wscsvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "SensorDataService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SensrSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SensorService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "LanmanServer",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "shpamsvc",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "ShellHWDetection",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SCardSvr",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "ScDeviceEnum",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SCPolicySvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SNMPTrap",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "sppsvc",
+        "State":  "Stopped",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "SharedRealitySvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "svsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SSDPSRV",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "StateRepository",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WiaRpc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "StorSvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "TieringEngineService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "OneSyncSvc_5a94f",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "SysMain",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SENS",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SystemEventsBroker",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SgrmBroker",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "Schedule",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "lmhosts",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "TapiSrv",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "TextInputManagementService",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Themes",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "TimeBrokerSvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "UdkUserSvc_5a94f",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "UsoSvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "upnphost",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "UserDataSvc_5a94f",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "UnistoreSvc_5a94f",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "UevAgentService",
+        "State":  "Stopped",
+        "StartType":  "Disabled",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "UserManager",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "ProfSvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "vds",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "VSS",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "VacSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WaaSMedicSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WalletService",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WarpJITSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "TokenBroker",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "webthreatdefsvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "webthreatdefusersvc_5a94f",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WebClient",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WFDSConMgrSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Audiosrv",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "AudioEndpointBuilder",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "SDRSVC",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WbioSrvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "FrameServer",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "FrameServerMonitor",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "wcncsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Wcmsvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Sense",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "mpssvc",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WEPHOSTSVC",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WerSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Wecsvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "EventLog",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "FontCache",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "StiSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "wisvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "msiserver",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "LicenseManager",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "Winmgmt",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WManSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WMPNetworkSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "MixedRealityOpenXRSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "icssvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "TrustedInstaller",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "spectrum",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "perceptionsimulation",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WpnService",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WpnUserService_5a94f",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "PushToInstall",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WinRM",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "WSearch",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  true
+    },
+    {
+        "Name":  "SecurityHealthService",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "W32Time",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "wuauserv",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WinHttpAutoProxySvc",
+        "State":  "Running",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "dot3svc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WlanSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "wmiApSrv",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "workfolderssvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "LanmanWorkstation",
+        "State":  "Running",
+        "StartType":  "Auto",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "WwanSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "XboxGipSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "XblAuthManager",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "XblGameSave",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    },
+    {
+        "Name":  "XboxNetApiSvc",
+        "State":  "Stopped",
+        "StartType":  "Manual",
+        "DelayedAutoStart":  false
+    }
+]
