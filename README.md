@@ -77,8 +77,8 @@ Spooler               Automatic manual
 ## Documentation
 - [docs/win_service_documentation.txt](docs/win_service_documentation.txt) - contains detailed Windows service documentation, refer to this for additional information about Windows services.
 - [baseline](baseline) folder contains Windows service baseline exportes
-    - [baseline/win11-22H2-build_22621.1344_service_state_20230308_164427.txt]([baseline/win11-22H2-build_22621.1344_service_state_20230308_164427.txt) - clean Windows 11 22H2 installation baseline (txt)
-    - [baseline/win11-22H2-build_22621.1344_service_state_20230308_164427.json]([baseline/win11-22H2-build_22621.1344_service_state_20230308_164427.json) - clean Windows 11 22H2 installation baseline (JSON)
+    - [baseline/win11-22H2-build_22621.1344_service_state_20230308_164427.txt](baseline/win11-22H2-build_22621.1344_service_state_20230308_164427.txt) - clean Windows 11 22H2 installation baseline (txt)
+    - [baseline/win11-22H2-build_22621.1344_service_state_20230308_164427.json](baseline/win11-22H2-build_22621.1344_service_state_20230308_164427.json) - clean Windows 11 22H2 installation baseline (JSON)
 
 ## References
 - [Security guidelines for system services in Windows Server 2016 | Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server)
