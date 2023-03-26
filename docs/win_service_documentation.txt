@@ -1066,12 +1066,15 @@ DisplayName : Connected Devices Platform Service
 Description : This service is used for Connected Devices Platform scenarios
 PathName    : C:\Windows\system32\svchost.exe -k LocalService -p
 StartMode   : Auto
+Depends On  : NcbService
+              RpcSs
 Notes       : This service is used for Connected Devices and Universal Glass scenarios
               Might be related to Xbox and/or Bluetooth devices
               https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cdp/
               The Connected Devices Platform Service Protocol provides a way for devices such as PC's and smartphones to discover and send messages between each other. It provides a
               transport-agnostic means of building connections among all of a user's devices and allows them to communicate over a secure protocol.
               IoT Guidance: OK to disable
+Issues      : Causes issues with "/Microsoft/Windows/International/Synchronize Language Settings Task" scheduled task hanging during logout; see: https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool/issues/46
 Tags        : #xbox, #bluetooth
 
 Name        : CDPUserSvc_*
@@ -1081,6 +1084,7 @@ PathName    : C:\Windows\system32\svchost.exe -k UnistackSvcGroup
 StartMode   : Auto
 Notes       : Server Guidance: ok to disable
               IoT Guidance: OK to disable
+Issues      : see: CDPSvc
 Tags        : #xbox, #bluetooth
 
 Name        : WinHttpAutoProxySvc
@@ -1180,7 +1184,8 @@ DisplayName : Touch Keyboard and Handwriting Panel Service
 Description : Enables Touch Keyboard and Handwriting Panel pen and ink functionality
 PathName    : C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p
 StartMode   : Manual
-Notes       : Server Guidance: ok to disable
+Notes       : Windows Terminal app will not receive keyboard input if this is not running
+              Server Guidance: ok to disable
               IoT Guidance: OK to disable
 Tags        :
 
@@ -1522,7 +1527,8 @@ DisplayName : Web Account Manager
 Description : This service is used by Web Account Manager to provide single-sign-on to apps and services.
 PathName    : C:\Windows\system32\svchost.exe -k netsvcs -p
 StartMode   : Manual
-Notes       : Connect UWP app to external identity provider, such as Microsoft, Facebook
+Notes       : Won't be able to set account picture if this is not running
+              Connect UWP app to external identity provider, such as Microsoft, Facebook
               https://learn.microsoft.com/en-us/windows/uwp/security/web-account-manager
               IoT Guidance: OK to disable
 Tags        :
@@ -2321,6 +2327,10 @@ DisplayName : Network Connectivity Assistant
 Description : Provides DirectAccess status notification for UI components
 PathName    : C:\Windows\System32\svchost.exe -k NetSvcs -p
 StartMode   : Manual
+Depends On  : BFE
+              Dnscache
+              iphlpsvc
+              nsi
 Notes       : IoT Guidance: OK to disable
 Tags        :
 
