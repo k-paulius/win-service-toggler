@@ -22,10 +22,16 @@ $servicesToModify = @(
     @{name = "MapsBroker";                                  desiredStartType = "disabled"},  # Downloaded Maps
     @{name = "dmwappushservice";                            desiredStartType = "manual"},    # Device Management Wireless Application Protocol (WAP) Push message Routing Service; related to SMS
     @{name = "WpnService";                                  desiredStartType = "disabled"},  # Windows Push Notifications System Service
+    @{name = "WpnUserService_*";                            desiredStartType = "disabled"},  # Windows Push Notification; starts when set to manual
     @{name = "PushToInstall";                               desiredStartType = "disabled"},  # Windows PushToInstall Service; Microsoft Store PushToInstall; #security
     @{name = "TrkWks";                                      desiredStartType = "manual"},    # Distributed Link Tracking Client; Linked files across NTFS-formatted volumes
     @{name = "WpcMonSvc";                                   desiredStartType = "manual"},    # Parental Controls
     @{name = "WPDBusEnum";                                  desiredStartType = "disabled"},  # Portable Device Enumerator; enforces group policy for removable mass-storage devices
+    @{name = "BcastDVRUserService_*";                       desiredStartType = "manual"},    # GameDVR and Broadcast User Service; used for Game Recordings and Live Broadcasts
+    @{name = "CaptureService_*";                            desiredStartType = "manual"},    # CaptureService_; Screen Capture; Windows.Graphics.Capture API screen capture functionality
+    @{name = "cbdhsvc_*";                                   desiredStartType = "disabled"},  # Clipboard User Service; ; starts when set to manual
+    @{name = "OneSyncSvc_*";                                desiredStartType = "manual"},    # Sync Host_*; Synchronizes mail, contacts, calendar, etc.
+    @{name = "PimIndexMaintenanceSvc_*";                    desiredStartType = "disabled"},  # Contact Data; contact indexing; starts when set to manual
     # remote access
     @{name = "RemoteAccess";                                desiredStartType = "disabled"},  # Routing and Remote Access; disbled by default; #security
     @{name = "RemoteRegistry";                              desiredStartType = "disabled"},  # Remote Registry Access; disabled by default; #security
@@ -53,13 +59,6 @@ $servicesToModify = @(
     @{name = "diagsvc";                                     desiredStartType = "manual"},    # Diagnostic Execution Service
     @{name = "WerSvc";                                      desiredStartType = "manual"},    # Windows Error Reporting; collects and sends crash/hang data used by both MS and third party ISVs/IHVs
     @{name = "wercplsupport";                               desiredStartType = "disabled"},  # Problem Reports Control Panel Support
-    # per-user services
-    @{name = "BcastDVRUserService_*";                       desiredStartType = "manual"},    # GameDVR and Broadcast User Service; used for Game Recordings and Live Broadcasts
-    @{name = "CaptureService_*";                            desiredStartType = "manual"},    # CaptureService_; Screen Capture; Windows.Graphics.Capture API screen capture functionality
-    @{name = "cbdhsvc_*";                                   desiredStartType = "disabled"},  # Clipboard User Service; ; starts when set to manual
-    @{name = "WpnUserService_*";                            desiredStartType = "disabled"},  # Windows Push Notification; starts when set to manual
-    @{name = "OneSyncSvc_*";                                desiredStartType = "manual"},    # Sync Host_*; Synchronizes mail, contacts, calendar, etc.
-    @{name = "PimIndexMaintenanceSvc_*";                    desiredStartType = "disabled"},  # Contact Data; contact indexing; starts when set to manual
 
     #
     # recommendation: disable if feature is not used
@@ -69,8 +68,6 @@ $servicesToModify = @(
     @{name = "XblGameSave";                                 desiredStartType = ""},          # Xbox Live Game Save
     @{name = "XboxGipSvc";                                  desiredStartType = ""},          # Xbox Accessory Management Service
     @{name = "XboxNetApiSvc";                               desiredStartType = ""},          # Xbox Live Networking Service
-    @{name = "CDPSvc";                                      desiredStartType = ""},          # Connected Devices Platform Service; Xbox, Bluetooth, Smartphones; #security
-    @{name = "CDPUserSvc_*";                                desiredStartType = ""},          # Connected Devices Platform User Service_*; related to CDPSvc; Xbox, Bluetooth; #security
     # Bluetooth
     @{name = "BthAvctpSvc";                                 desiredStartType = ""},          # AVCTP service; Bluetooth; starts when set to manual
     @{name = "BTAGService";                                 desiredStartType = ""},          # Bluetooth Audio Gateway Service; Bluetooth
@@ -98,16 +95,13 @@ $servicesToModify = @(
     # networking / communication
     @{name = "PhoneSvc";                                    desiredStartType = ""},          # Phone Service; used by modern VoIP apps
     @{name = "lltdsvc";                                     desiredStartType = ""},          # Link-Layer Topology Discovery Mapper; creates a Network Map
-    @{name = "NcbService";                                  desiredStartType = ""},          # Network Connection Broker; allow Windows Store Apps to receive notifications from the internet
     @{name = "QWAVE";                                       desiredStartType = ""},          # Audio/Video, Networking; QoS for AV applications
     @{name = "icssvc";                                      desiredStartType = ""},          # Windows Mobile Hotspot Service; share a cellular data connection with another device
     @{name = "WwanSvc";                                     desiredStartType = ""},          # WWAN AutoConfig; manages mobile broadband (GSM & CDMA) data card/embedded module adapters and connections
     @{name = "dot3svc";                                     desiredStartType = ""},          # Wired AutoConfig (DOT3SVC) service is responsible for performing IEEE 802.1X authentication on Ethernet interfaces
     @{name = "NPSMSvc_*";                                   desiredStartType = ""},          # Network Policy Server Management Service
     # hardware
-    @{name = "TabletInputService";                          desiredStartType = ""},          # Touch Keyboard and Handwriting Panel Service
     @{name = "PenService_*";                                desiredStartType = ""},          # PenService_*; Windows Pen and Touch input
-    @{name = "TextInputManagementService";                  desiredStartType = ""},          # Text Input Management Service; associated with on-screen keyboard and handwriting recognition
     # Printing
     @{name = "PrintNotify";                                 desiredStartType = ""},          # Printer Extensions and Notifications
     @{name = "Spooler";                                     desiredStartType = ""},          # Print Spooler
@@ -140,7 +134,6 @@ $servicesToModify = @(
     @{name = "LicenseManager";                              desiredStartType = ""},          # Windows License Manager Service; Microsoft Store; starts when set to manual
     @{name = "InstallService";                              desiredStartType = ""},          # Microsoft Store
     @{name = "DsSvc";                                       desiredStartType = ""},          # Data Sharing Service; provides data brokering between applications.
-    @{name = "TokenBroker";                                 desiredStartType = ""},          # Web Account Manager; SSO for UWP apps using external identity provider, such as Microsoft, Facebook
     @{name = "RasMan";                                      desiredStartType = ""},          # Remote Access Connection Manager; manages VPN connections from this computer
     @{name = "RasAuto";                                     desiredStartType = ""},          # Remote Access Auto Connection Manager
     @{name = "DeviceAssociationService";                    desiredStartType = ""},          # Device Association Service; enables pairing between the system and wired or wireless devices.
@@ -188,7 +181,7 @@ $servicesToModify = @(
     @{name = "McpManagementService";                        desiredStartType = ""},          # McpManagementService
     @{name = "uhssvc";                                      desiredStartType = ""},          # Microsoft Update Health Service; disabled by default
     @{name = "P9RdrService_*";                              desiredStartType = ""},          # P9RdrService_*; Plan9 file servers; related to WSL
-       # per-user services
+    # per-user services
     @{name = "UserDataSvc_*";                               desiredStartType = ""},          # User Data Access; provides apps access to structured user data, including contact info, calendars, messages, etc.
     @{name = "UnistoreSvc_*";                               desiredStartType = ""},          # User Data Storage; handles storage of structured user data, including contact info, calendars, messages, etc.
     @{name = "MessagingService_*";                          desiredStartType = ""},          # Service supporting text messaging and related functionality
@@ -204,6 +197,9 @@ $servicesToModify = @(
     #
     # recommendation: DO NOT DISABLE, some of these can be disabled under right circumstances
     #
+    @{name = "CDPSvc";                                      desiredStartType = ""},          # Connected Devices Platform Service; Xbox, Bluetooth, Smartphones; see notes; #security
+    @{name = "CDPUserSvc_*";                                desiredStartType = ""},          # Connected Devices Platform User Service_*; related to CDPSvc; Xbox, Bluetooth; see notes; #security
+    @{name = "NcbService";                                  desiredStartType = ""},          # Network Connection Broker; allow Windows Store Apps to receive notifications from the internet; CDPSvc depends on this service
     @{name = "AxInstSV";                                    desiredStartType = ""},          # ActiveX Installer
     @{name = "AppMgmt";                                     desiredStartType = ""},          # Application Management
     @{name = "ShellHWDetection";                            desiredStartType = ""},          # Shell Hardware Detection; notifications for AutoPlay hardware events
@@ -238,6 +234,8 @@ $servicesToModify = @(
     @{name = "W32Time";                                     desiredStartType = ""},          # Windows Time; date and time synchronization
     @{name = "SecurityHealthService";                       desiredStartType = ""},          # Windows Security Service
     @{name = "dcsvc";                                       desiredStartType = ""},          # Declared Configuration(DC) service; used by the Windows Defender Application Control (WDAC)
+    @{name = "TabletInputService";                          desiredStartType = ""},          # Touch Keyboard and Handwriting Panel Service; breaks Windows Terminal if disabled
+    @{name = "TokenBroker";                                 desiredStartType = ""},          # Web Account Manager; SSO for UWP apps using external identity provider, such as Microsoft, Facebook; breaks things if disabled
     # SMB
     @{name = "LanmanServer";                                desiredStartType = ""},          # Server; SMB server
     @{name = "LanmanWorkstation";                           desiredStartType = ""},          # Workstation; SMB client
@@ -317,7 +315,8 @@ $servicesToModify = @(
     @{name = "embeddedmode";                                desiredStartType = ""},          # Embedded Mode; enables scenarios related to Background Applications; cannot be disabled
     @{name = "DoSvc";                                       desiredStartType = ""},          # Delivery Optimization; downloads updates from other PCs; cannot be disabled
     @{name = "WinHttpAutoProxySvc";                         desiredStartType = ""},          # WinHTTP Web Proxy Auto-Discovery Service; cannot be disabled
-    @{name = "Dnscache";                                    desiredStartType = ""}           # DNS Client; cannot be disabled
+    @{name = "Dnscache";                                    desiredStartType = ""},          # DNS Client; cannot be disabled
+    @{name = "TextInputManagementService";                  desiredStartType = ""}           # Text Input Management Service; associated with on-screen keyboard and handwriting recognition; cannot be disabled
 )
 
 function Backup-Current-Service-State {
