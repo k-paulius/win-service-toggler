@@ -22,14 +22,12 @@ $servicesToModify = @(
     @{name = "MapsBroker";                                  desiredStartType = "disabled"},  # Downloaded Maps
     @{name = "dmwappushservice";                            desiredStartType = "manual"},    # Device Management Wireless Application Protocol (WAP) Push message Routing Service; related to SMS
     @{name = "WpnService";                                  desiredStartType = "disabled"},  # Windows Push Notifications System Service
-    @{name = "WpnUserService_*";                            desiredStartType = "disabled"},  # Windows Push Notification; starts when set to manual
     @{name = "PushToInstall";                               desiredStartType = "disabled"},  # Windows PushToInstall Service; Microsoft Store PushToInstall; #security
     @{name = "TrkWks";                                      desiredStartType = "manual"},    # Distributed Link Tracking Client; Linked files across NTFS-formatted volumes
     @{name = "WpcMonSvc";                                   desiredStartType = "manual"},    # Parental Controls
     @{name = "WPDBusEnum";                                  desiredStartType = "disabled"},  # Portable Device Enumerator; enforces group policy for removable mass-storage devices
     @{name = "BcastDVRUserService_*";                       desiredStartType = "manual"},    # GameDVR and Broadcast User Service; used for Game Recordings and Live Broadcasts
     @{name = "CaptureService_*";                            desiredStartType = "manual"},    # CaptureService_; Screen Capture; Windows.Graphics.Capture API screen capture functionality
-    @{name = "cbdhsvc_*";                                   desiredStartType = "disabled"},  # Clipboard User Service; ; starts when set to manual
     @{name = "OneSyncSvc_*";                                desiredStartType = "manual"},    # Sync Host_*; Synchronizes mail, contacts, calendar, etc.
     @{name = "PimIndexMaintenanceSvc_*";                    desiredStartType = "disabled"},  # Contact Data; contact indexing; starts when set to manual
     # remote access
@@ -125,7 +123,6 @@ $servicesToModify = @(
     @{name = "UmRdpService";                                desiredStartType = ""},          # Remote Desktop Services UserMode Port Redirector
     # misc features
     @{name = "SysMain";                                     desiredStartType = ""},          # SysMain; SuperFetch
-    @{name = "StorSvc";                                     desiredStartType = ""},          # Storage Service; external USB HDD; starts when set to manual
     @{name = "BDESVC";                                      desiredStartType = ""},          # BitLocker; disk encryption
     @{name = "diagnosticshub.standardcollector.service";    desiredStartType = ""},          # Event Tracing for Windows (ETW)
     @{name = "MSDTC";                                       desiredStartType = ""},          # Distributed Transactions; starts when set to manual
@@ -197,6 +194,9 @@ $servicesToModify = @(
     #
     # recommendation: DO NOT DISABLE, some of these can be disabled under right circumstances
     #
+    @{name = "WpnUserService_*";                            desiredStartType = ""},          # Windows Push Notification; starts when set to manual
+    @{name = "cbdhsvc_*";                                   desiredStartType = ""},          # Clipboard User Service; ; starts when set to manual
+    @{name = "StorSvc";                                     desiredStartType = ""},          # Storage Service; external USB HDD, Microsoft Store; starts when set to manual
     @{name = "CDPSvc";                                      desiredStartType = ""},          # Connected Devices Platform Service; Xbox, Bluetooth, Smartphones; see notes; #security
     @{name = "CDPUserSvc_*";                                desiredStartType = ""},          # Connected Devices Platform User Service_*; related to CDPSvc; Xbox, Bluetooth; see notes; #security
     @{name = "NcbService";                                  desiredStartType = ""},          # Network Connection Broker; allow Windows Store Apps to receive notifications from the internet; CDPSvc depends on this service

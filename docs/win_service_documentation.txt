@@ -100,6 +100,7 @@ Description : This user service is used for Clipboard scenarios
 PathName    : C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p
 StartMode   : Auto
 Notes       : IoT Guidance: OK to disable
+Issues      : Calculator App will crash when trying to copy results if this is not running
 Tags        :
 
 Name        : diagnosticshub.standardcollector.service
@@ -601,6 +602,7 @@ PathName    : C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p
 StartMode   : Auto
 Notes       : Adds 'System Volume Information' folder to external USB memory devices. Required for Microsoft Store.
               external USB HDD will not work if disabled
+Issues      : Microsoft Store might return error 0x800706D9 when trying to install new apps.
 Tags        : #msstore
 
 Name        : SysMain
@@ -697,6 +699,7 @@ StartMode   : Auto
 Notes       : Windows Push Notification Services (WNS) enable third-party developers to send toast, tile, badge, and raw updates from their own cloud service.
               https://learn.microsoft.com/en-us/windows/apps/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview
               Server Guidance: ok to disable
+Issues      : 
 Tags        :
 
 Name        : WpnUserService_*
@@ -706,6 +709,7 @@ PathName    : C:\Windows\system32\svchost.exe -k UnistackSvcGroup
 StartMode   : Auto
 Notes       : related to WpnService
               Server Guidance: ok to disable
+Issues      : Notification panel will not function; navigating to Settings App -> Network & Internet will results in a crash; Clock app will not function properly if this is not running
 Tags        :
 
 Name        : wscsvc
@@ -719,7 +723,7 @@ Description : The WSCSVC (Windows Security Center) service monitors and reports 
               system.
 PathName    : C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p
 StartMode   : Auto
-Notes       :  IoT Guidance: Do not disable
+Notes       : IoT Guidance: Do not disable
 Tags        : #system #security
 
 Name        : EventLog
